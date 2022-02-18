@@ -8,7 +8,7 @@ This project uses Google's free Firebase service.
 To try out this project, first open the terminal and type in `git clone https://github.com/EesaZahed/react-simple-messaging.git`
 Next, type `cd react-simple-messaging` and `npm i react` in the terminal.
 
-Next, create a Google Firebase project at https://console.firebase.google.com/, and enable a realtime database (in test mode). Once you create your project, go to your project settings, and copy the `firebaseConfig` object, and paste it in `src/firebase.js`.
+Next, create a Google Firebase web project at https://console.firebase.google.com/, and enable a realtime database (in test mode). Once you create your project, go to your project settings, and copy the `firebaseConfig` object, and paste it in `src/firebase.js`.
 
 To finally run it, type in the terminal of your project's directory `npm start`.
 
