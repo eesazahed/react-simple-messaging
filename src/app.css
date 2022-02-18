@@ -1,0 +1,85 @@
+html,
+button,
+textarea, 
+input {
+    font: 1rem "Roboto", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+header {
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: none;
+}
+
+textarea,
+select,
+input {
+    padding: 2%;
+    resize: none;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#postForm {
+    margin-bottom: 50px;
+}
+
+#btnContainer, main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lead {
+    width: 60%;
+}
+
+.post {
+    text-align: left;
+    width: 40vw;
+    margin: 3%;
+    padding: 3%;
+    border: 1px solid black;
+    box-shadow: 1;
+    border-radius: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.userProfileDisplay {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.profile {
+    padding: 3%;
+    margin: 1%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: x-large;
+}
+
+.usernameDisplay {
+    margin-left: 10px;
+}
+
+.postDisplay, .timeDisplay {
+    margin-left: 10px;
+}
+
+.timeDisplay {
+    font-size: 0.7rem;
+    color: grey;
+}
