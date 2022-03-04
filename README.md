@@ -1,4 +1,4 @@
-# react-social
+# React Simple Messaging
 A social media test website that is made with react.
 
 This is completely open to anyone and does not require sign up/log in. All you have to do is write your name and select a message. You can reload it to recieve new messages. Once you send a message, you can delete it afterwards.
